@@ -1,0 +1,231 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Pavankumar Patel",
+      "email": "patelmedic@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Asher Hahn",
+      "email": "aliquet.metus@protonmail.ca"
+    },
+    {
+      "id": 3,
+      "name": "Wynne Mckinney",
+      "email": "elit.aliquam.auctor@hotmail.net"
+    },
+    {
+      "id": 4,
+      "name": "Xanthus Hawkins",
+      "email": "sapien@protonmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Merrill Mcleod",
+      "email": "lobortis.mauris@yahoo.org"
+    },
+    {
+      "id": 6,
+      "name": "Katelyn Sanford",
+      "email": "morbi.accumsan@hotmail.org"
+    },
+    {
+      "email": "patelmedic1@gmail.com",
+      "fullName": "Pavan Patel",
+      "id": 7
+    }
+  ],
+  "inventoryTypes": [
+    {
+      "id": 1,
+      "room": "Kitchen"
+    },
+    {
+      "id": 2,
+      "room": "Bathroom"
+    },
+    {
+      "id": 3,
+      "room": "Bar"
+    },
+    {
+      "id": 4,
+      "room": "Laundry"
+    }
+  ],
+  "inventories": [
+    {
+      "id": 1,
+      "itemName": "Blanton's",
+      "description": "Burboun with a horse on top of cork.",
+      "inventoryTypeId": 3
+    },
+    {
+      "id": 2,
+      "itemName": "Tito's Vodka",
+      "description": "Gluten free Vodka with a yellow-ish label made in Austin, Texas.",
+      "inventoryTypeId": 3
+    },
+    {
+      "id": 3,
+      "itemName": "Bacardi Silver",
+      "description": "Clear Rum with a bat on the label.",
+      "inventoryTypeId": 3
+    },
+    {
+      "id": 4,
+      "itemName": "Royal Basmati Rice",
+      "description": "20 lb bag with white rice.",
+      "inventoryTypeId": 1
+    },
+    {
+      "id": 5,
+      "itemName": "Bertolli Olive Oil",
+      "description": "17 fl oz green bottle",
+      "inventoryTypeId": 1
+    },
+    {
+      "id": 6,
+      "itemName": "Gain Laundry Detergent",
+      "description": "154 fl oz green container.",
+      "inventoryTypeId": 4
+    },
+    {
+      "id": 7,
+      "itemName": "Downy Fabric Softner",
+      "description": "164 fl oz blue container.",
+      "inventoryTypeId": 4
+    },
+    {
+      "id": 8,
+      "itemName": "Charmin Ultra Soft",
+      "description": "Toilet paper with a brown bear on the cover",
+      "inventoryTypeId": 2
+    },
+    {
+      "id": 9,
+      "itemName": "Head & Shoulders",
+      "description": "Shampoo, 13.5 oz with a blue lid.",
+      "inventoryTypeId": 2
+    },
+    {
+      "id": 10,
+      "itemName": "Coffee ",
+      "description": "Coffee beans from Joe & Dough",
+      "inventoryTypeId": 1
+    },
+    {
+      "itemName": "toothpase",
+      "description": "for brushing teeth",
+      "inventoryTypeId": 2,
+      "id": 11
+    },
+    {
+      "itemName": "Eggs",
+      "description": "12 count large; Free-Range",
+      "inventoryTypeId": 1,
+      "id": 12
+    },
+    {
+      "itemName": "Hand Soap",
+      "description": "Any brand that has a good scent",
+      "inventoryTypeId": 2,
+      "id": 13
+    },
+    {
+      "itemName": "The Botanist Islay",
+      "description": "Gin; 750 mL glass bottle",
+      "inventoryTypeId": 3,
+      "id": 14
+    },
+    {
+      "itemName": "Grenadine",
+      "description": "Rose's 1 L bottle",
+      "inventoryTypeId": 3,
+      "id": 15
+    },
+    {
+      "itemName": "Orange Bitters",
+      "description": "Angostura brand; 4 fl. oz",
+      "inventoryTypeId": 3,
+      "id": 16
+    },
+    {
+      "itemName": "Cabernet Sauvignon",
+      "description": "Caymus 2020; 750mL",
+      "inventoryTypeId": 3,
+      "id": 17
+    },
+    {
+      "itemName": "Pinot Noir",
+      "description": "Dark Horse; Red Wine; 750mL",
+      "inventoryTypeId": 3,
+      "id": 18
+    },
+    {
+      "itemName": "Dryer Sheets",
+      "description": "Bounce; 200 count",
+      "inventoryTypeId": 4,
+      "id": 19
+    },
+    {
+      "itemName": "Bleach",
+      "description": "Clorox 121 oz.",
+      "inventoryTypeId": 4,
+      "id": 20
+    },
+    {
+      "itemName": "Hydrogen Peroxide",
+      "description": "Brown bottle with white cap",
+      "inventoryTypeId": 4,
+      "id": 21
+    },
+    {
+      "id": 22,
+      "itemName": "salt",
+      "description": "Morton; 26 oz",
+      "inventoryTypeId": 1
+    },
+    {
+      "itemName": "Bread",
+      "description": "any brand; any type (white, wheat, etc.)",
+      "inventoryTypeId": 1,
+      "id": 23
+    },
+    {
+      "itemName": "Milk",
+      "description": "Any brand but 2% only",
+      "inventoryTypeId": 1,
+      "id": 24
+    },
+    {
+      "id": 25,
+      "itemName": "Bourbon",
+      "description": "Yellowstone;750 mL",
+      "inventoryTypeId": 3
+    }
+  ],
+  "buyList": [
+    {
+      "userId": 1,
+      "inventoryId": 18,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "inventoryId": 19,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "inventoryId": 24,
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "inventoryId": 25,
+      "id": 12
+    }
+  ]
+}
